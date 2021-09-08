@@ -1,0 +1,329 @@
+* { 
+margin: 0;
+padding: 0;
+border-width: 0px;
+}
+
+html, body {
+height: 100%;
+}
+
+body {
+  font-family:"Trebuchet MS", Trebuchet, sans-serif;
+  background: #33CA7F;
+}
+
+p {
+  font-size:14px;
+  color:#FFFFFF;
+}
+
+A {
+  border: 0px;
+  text-decoration: none;
+  color: #0064c8;
+}
+
+h1 {
+  font-size:18px;
+}
+
+.superwrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -200px;
+}
+
+.push {
+	clear: both;
+	height: 210px;
+}
+
+.overlay {
+	position: absolute; top: 3px; left: 3px;
+	z-index: 2;
+}
+
+.overlaytext {
+	position: absolute; top: 90px; left: 0px;
+	width: 100%;
+	text-align:center;
+	font-size:18px;
+	z-index: 3;
+	color: #fff;
+	text-shadow: 0px 1px 1px #000;
+	pointer-events: none;
+}
+
+#bottomarea { width: 960px; margin: 0px auto; text-align: center; }
+#leftarea { width: 600px; float: left;}
+#rightarea { width: 360px; float: left;}
+#fblike { margin: 12px auto; }
+
+#bottom { 
+	clear: both;
+	width: 100%; height: 200px;
+	background: #404040; margin-top: 20px;
+}
+
+#line {
+	background: #004080; margin-bottom: 20px;
+	box-shadow: 0px 0px 10px #000000;
+	width: 100%; height: 5px;
+}
+
+#bottext {
+    text-align: center;
+    font-family:"Trebuchet MS", Trebuchet, sans-serif;
+    font-size: 16px;
+    text-shadow: 0px 1px 2px #000000;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+#iosbox { height: 218px; width: 960px; margin-bottom: 20px;
+	position:relative; background-color: #fffaf5;
+	border: 2px #000000 solid; padding: 0px; border-radius: 16px;
+}
+#iospic { position:absolute; top:11px;left:11px; }
+#iostitle { position:absolute; top:21px;left:218px; font-size:24px}
+#iosinfo { position:absolute; top:61px;left:218px; font-size:16px;}
+#appstorebadge { position:absolute; top:132px;left:218px; }
+#gplaybadge { position:absolute; top:132px;left:438px; }
+
+#minibox {
+	margin-top: 10px; margin-right: 5px; float: left;
+	background-color: #FFFFFF; border: 1px #bfbfbf solid; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 186px; height: 126px;
+}
+
+#minirightbox {
+	margin-top: 10px; margin-right: 0px; float: right;
+	background-color: #FFFFFF; border: 1px #bfbfbf solid; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 186px; height: 126px;
+}
+
+#minicontent { margin-left: 3px; margin-top: 3px; text-align: center; width: 180px; height:120px; background: #fff; }
+
+#frontbox {
+	margin-top: 20px; margin-right: 9px; float: left; margin-bottom: 10px;
+	background-color: #FFFFFF; border: 1px #bfbfbf solid; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 312px; height: 262px;
+}
+
+#frontrightbox {
+	margin-top: 20px; margin-right: 0px; float: right; margin-bottom: 10px;
+	background-color: #FFFFFF; border: 1px #bfbfbf solid; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 312px; height: 262px;
+}
+
+#frontcontent { margin-left: 6px; margin-top: 6px; text-align: center; width: 300px; height:250px; background: #fff; }
+
+#sidebox {
+	margin: 20px auto;
+	background-color: #FFFFFF; border: 1px #bfbfbf solid; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 212px; height: 387px;
+}
+
+#sideboxcontent { margin-left: 6px; margin-top: 6px; text-align: center; width: 200px; height:375px; background: #fff; }
+
+#botadbox {
+	margin: 20px auto;
+	background-color: #FFFFFF; border: 1px #bfbfbf solid; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 740px; height:102px;
+}
+
+#topadbox {
+	float: left;
+	margin-bottom: 20px;
+	background-color: #FFFFFF; border: 1px #bfbfbf solid; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 740px; height:102px;
+}
+
+#advert { margin-left: 6px; margin-top: 6px; text-align: center; width: 728px; height:90px; background: #ddd;}
+
+#toptwo { width: 960px; height: 175px;}
+
+#topgamebox {
+	float: right;
+	margin-bottom: 20px;
+	background-color: #FFFFFF; border: 1px #bfbfbf solid; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 210px; height:102px;
+}
+
+#topcenter { margin: 0px auto; width: 960px; }
+#wrapper { margin: 0px auto; text-align: left; width: 960px; }
+
+#topbar { position:fixed; width:100%; z-index:999; top:0; height:50px;
+	box-shadow: 0px 0px 10px #000000;
+	background:#ff9620;}
+	
+#p1 {
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 25px;
+	}
+
+#p1 a:link { color: #ff9620; }
+#p1 a:visited { color: #ffffff; }
+#p1 a:hover { color: #ffcc93; }
+#p1 a:active { color: #ffb493; }
+	
+#p2 {
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 25px;
+	}
+	
+#p2 a:link { color: #00FFFF; }
+#p2 a:visited { color: #00FFFF; }
+#p2 a:hover { color: #44FFFF; }
+#p2 a:active { color: #88FFFF; }
+	
+#topmenu { margin: auto; text-align: center; width: 960px;}
+
+#bigbox { background-color: #FFFFFF; border: 1px #bfbfbf solid; margin: 0px; padding: 0px;
+	-moz-border-radius: 5px; border-radius: 5px;
+	width: 958px; height:360px; }
+	
+#projectbox { background-color: #FFFFFF; border: 1px #bfbfbf solid; margin: 0px; padding: 0px;
+-moz-border-radius: 5px; border-radius: 5px;
+width: 958px; height:298px; }
+
+#maincontent { margin-left: 6px; margin-top: 6px; text-align: center; width: 946px; height:348px; }
+
+
+#listimg { position:absolute; top:0px;left:0px;}
+#listtitle { position:absolute; top:10px;left:190px; font-size: 20px; text-shadow: 0px 1px 2px #000000;}
+#listinfo { position:absolute; top:45px;left:190px; font-size: 16px; color:#f0f0f0; text-shadow: 0px 1px 2px #000000;}
+
+ul {
+    font-family:"Trebuchet MS", Trebuchet, sans-serif;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    /*text-shadow: 0px 2px 4px #000000;*/
+}
+ul li {
+    display: block;
+    position: center;
+    float: left;
+}
+li ul {
+    display: none;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 25px 12px 25px;
+    white-space: nowrap;
+}
+ul li a:hover {
+    background: #000000;
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+
+}
+li:hover li {
+    float: none;
+    font-size: 16px;
+}
+
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:960px;
+  background: #323232;
+  -webkit-box-shadow: 0 15px 10px #000000;
+  -moz-box-shadow: 0 15px 10px #000000;
+  box-shadow: 0 15px 10px #000000;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+  right: 10px;
+  left: auto;
+}
+
+/* Add a background color and some padding around the form */
+.contact {
+    border-radius: 32px;
+    background-color: #f2f2f2;
+    padding: 24px;
+	font-family: roboto, bookman, verdana;
+	font-size: 16px;
+	color:#0e0e0e;
+}
+
+/* Style inputs */
+.inputfield, .inputfield:focus {
+	width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 16px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	font-family: roboto, bookman, verdana;
+	font-size:24px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #00c0ff;
+    color: white;
+    padding: 20px 32px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+	font-family: roboto, bookman, verdana;
+	font-size:24px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #60e1ff;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 16px;
+  }
+}
